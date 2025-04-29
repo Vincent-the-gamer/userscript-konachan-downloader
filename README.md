@@ -1,6 +1,24 @@
 # Userscript Konachan Downloader
 
-Konachan.com图片按页面批量打包下载, 默认下载大图
+一个油猴插件，Konachan.com图片按页面批量打包下载, 默认下载大图。
+
+A userscript for downloading large pictures from Konachan.com.
 
 > [!NOTE] Notice
-Work in progress.
+> 正在开发中。
+
+# 安装/Installation
+
+[Install from Greasy Fork](https://greasyfork.org/zh-CN/scripts/534354-userscript-konachan-downloader)
+
+# 使用方法/Usage
+
+在Konachan有图片列表的页面中，右上角会出现一个按钮，点击即可复制**当前页面**所有图片的**大图链接**
+
+In the Konachan post page, if the picture list exists, a button will appear at the top-right corner, click to copy **all large picture link** of **the whole page**.
+
+![](.github/preview.png)
+
+# 开源证书/License
+
+[MIT License | Copyright (c) 2025-PRESENT Vincent-the-gamer](./LICENSE)

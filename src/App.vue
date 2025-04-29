@@ -12,7 +12,7 @@
 
 <template>
   <button class="user-btn" v-if="postList.length > 0" 
-          @click="getLargeImgLink">复制当前页面大图链接</button>
+          @click="getLargeImgLink">复制所有当前页面大图链接</button>
 </template>
 
 <style scoped>
@@ -20,6 +20,13 @@
     position: fixed;
     top: 5px;
     right: 5px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid yellow;
     background-color: turquoise;
+    display: flex;
+    align-items: center;
   }
 </style>
