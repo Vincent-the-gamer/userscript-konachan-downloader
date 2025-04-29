@@ -8,6 +8,12 @@ A userscript for downloading large pictures from Konachan.com.
 
 [Install from Greasy Fork](https://greasyfork.org/zh-CN/scripts/534354-userscript-konachan-downloader)
 
+
+> [!IMPORTANT]
+> 从GitHub下载后手动拖入浏览器安装
+
+[Download from GitHub](https://github.com/Vincent-the-gamer/userscript-konachan-downloader/releases/tag/v1.0.0)
+
 # 使用方法/Usage
 
 在Konachan有图片列表的页面中，右上角会出现一个按钮，点击即可复制**当前页面**所有图片的**大图链接**
