@@ -1,6 +1,6 @@
 {
   "name": "userscript-konachan-downloader",
-  "description": "Konachan.com图片按当前页面批量打包下载, 默认下载大图",
+  "description": "Konachan.com图片按页面批量复制链接, 默认复制大图。",
   "author": "Vincent-the-gamer",
   "version": "1.0.0",
   "private": true,

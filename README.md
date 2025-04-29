@@ -1,8 +1,8 @@
 # Userscript Konachan Downloader
 
-一个油猴插件，Konachan.com图片按页面批量打包下载, 默认下载大图。
+一个油猴插件，Konachan.com图片按页面批量复制链接, 默认复制大图。
 
-A userscript for downloading large pictures from Konachan.com.
+A userscript for scrape large picture links from Konachan.com.
 
 # 安装/Installation
 
