@@ -4,9 +4,6 @@
 
 A userscript for downloading large pictures from Konachan.com.
 
-> [!NOTE] Notice
-> 正在开发中。
-
 # 安装/Installation
 
 [Install from Greasy Fork](https://greasyfork.org/zh-CN/scripts/534354-userscript-konachan-downloader)
