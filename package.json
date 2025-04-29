@@ -1,8 +1,9 @@
 {
   "name": "userscript-konachan-downloader",
-  "private": true,
+  "description": "Konachan.com图片按当前页面批量打包下载, 默认下载大图",
   "author": "Vincent-the-gamer",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
