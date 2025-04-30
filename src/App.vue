@@ -1,32 +1,48 @@
 <script setup lang="ts">
-  const postList: HTMLElement[] = Array.from(document.querySelectorAll("a.largeimg"))
+import { ref } from "vue"
+import Logo from "@/assets/logo.png"
+import Menu from "@/components/Menu.vue"
 
-  async function getLargeImgLink() {
-    if(postList) {  
-      let linkList = postList.map(el => el.href)
-      await navigator.clipboard.writeText(linkList.join("\n\n"))
-      alert("复制成功！")
-    }
-  }
+const showMenu = ref<boolean>(false)
 </script>
 
 <template>
-  <button class="user-btn" v-if="postList.length > 0" 
-          @click="getLargeImgLink">复制所有当前页面大图链接</button>
+  <img :src="Logo" alt="logo" class="logo" @click="showMenu = !showMenu" />
+  <Transition name="slide-fade">
+    <Menu v-show="showMenu" />
+  </Transition>
 </template>
 
 <style scoped>
-  .user-btn {
-    position: fixed;
-    top: 5px;
-    right: 5px;
-    height: 30px;
-    border-radius: 7px;
-    padding: 8px;
-    margin: 0;
-    border: 1px solid yellow;
-    background-color: turquoise;
-    display: flex;
-    align-items: center;
+.logo {
+  --size: 50px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  width: var(--size);
+  height: var(--size);
+  box-shadow: 0 0 15px deeppink;
+  transition: all, 200ms;
+  border-radius: 7px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px yellow;
   }
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
 </style>

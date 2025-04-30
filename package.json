@@ -1,24 +1,27 @@
 {
   "name": "userscript-konachan-downloader",
-  "description": "Konachan.com图片按页面批量复制链接, 默认复制大图。",
+  "description": "用于konachan.com等网站的图片按页面批量复制链接, 默认复制大图。",
   "author": "Vincent-the-gamer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vue-tsc -b && vite preview"
+    "preview": "vue-tsc -b && vite preview",
+    "dep": "taze major"
   },
   "dependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.5",
-    "vite-plugin-monkey": "^5.0.3",
-    "vue-tsc": "^2.2.0"
+    "@types/node": "^22.15.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "taze": "^19.0.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3",
+    "vite-plugin-monkey": "^5.0.8",
+    "vue-tsc": "^2.2.10"
   }
 }

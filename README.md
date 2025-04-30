@@ -1,8 +1,13 @@
 # Userscript Konachan Downloader
 
-一个油猴插件，Konachan.com图片按页面批量复制链接, 默认复制大图。
+一个油猴插件，用于konachan.com等网站的图片按页面批量复制链接, 默认复制大图。
 
-A userscript for scrape large picture links from Konachan.com.
+A userscript for scrape large picture links from konachan.com.
+
+# 支持的站点/Supported Websites
+
+- konachan.com
+- yande.re
 
 # 安装/Installation
 
@@ -12,7 +17,7 @@ A userscript for scrape large picture links from Konachan.com.
 > [!IMPORTANT]
 > 从GitHub下载后手动拖入浏览器安装
 
-[Download from GitHub](https://github.com/Vincent-the-gamer/userscript-konachan-downloader/releases/tag/v1.0.0)
+[Download from GitHub](https://github.com/Vincent-the-gamer/userscript-konachan-downloader/releases)
 
 # 使用方法/Usage
 
