@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ref } from "vue"
-import Logo from "@/assets/logo.png"
-import Menu from "@/components/Menu.vue"
+import Logo from '@/assets/logo.png'
+import Menu from '@/components/Menu.vue'
+import { ref } from 'vue'
 
 const showMenu = ref<boolean>(false)
 </script>
 
 <template>
-  <img :src="Logo" alt="logo" class="logo" @click="showMenu = !showMenu" />
+  <img :src="Logo" alt="logo" class="logo" @click="showMenu = !showMenu">
   <Transition name="slide-fade">
     <Menu v-show="showMenu" />
   </Transition>
