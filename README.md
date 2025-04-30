@@ -2,7 +2,7 @@
 
 一个油猴插件，用于konachan.com等网站的图片按页面批量复制链接, 默认复制大图。
 
-A userscript for scrape large picture links from konachan.com.
+A userscript for scrape large picture links from konachan.com and etc.
 
 # 支持的站点/Supported Websites
 
@@ -21,9 +21,9 @@ A userscript for scrape large picture links from konachan.com.
 
 # 使用方法/Usage
 
-在Konachan有图片列表的页面中，右上角会出现一个按钮，点击即可复制**当前页面**所有图片的**大图链接**
+在Konachan有图片列表的页面中，右上角会出现一个按钮，点击可以打开一个菜单，即可选择复制或下载**当前页面**所有图片的**大图链接**
 
-In the Konachan post page, if the picture list exists, a button will appear at the top-right corner, click to copy **all large picture link** of **the whole page**.
+In the Konachan post page, if the picture list exists, a button will appear at the top-right corner, click to open a menu, then copy or download **all large picture link** of **the whole page**.
 
 ![](.github/preview.png)
 
