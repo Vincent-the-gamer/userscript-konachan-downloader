@@ -15,9 +15,10 @@ A userscript for scrape large picture links from konachan.com and etc.
 
 
 > [!IMPORTANT]
-> 从GitHub下载后手动拖入浏览器安装
+> 如果你是从GitHub下载，则需要手动拖入浏览器安装
+> If you download the script from GitHub, you need to install it by dragging it into your browser.
 
-[Download from GitHub](https://github.com/Vincent-the-gamer/userscript-konachan-downloader/releases)
+[Download from GitHub Releases](https://github.com/Vincent-the-gamer/userscript-konachan-downloader/releases)
 
 # 使用方法/Usage
 
@@ -25,7 +26,9 @@ A userscript for scrape large picture links from konachan.com and etc.
 
 In the Konachan post page, if the picture list exists, a button will appear at the top-right corner, click to open a menu, then copy or download **all large picture link** of **the whole page**.
 
-![](.github/preview.png)
+
+![preview](./.github/preview.png)
+
 
 # 开源证书/License
 
